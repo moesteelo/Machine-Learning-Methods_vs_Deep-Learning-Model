@@ -44,11 +44,21 @@ Despite these advantages, SVMs are limited in their potential and can still miss
 **Comparing the analysis of both results, the SVM and deep learning models both achieved a predictive accuracy around 87%. The only noticeable difference between the two models is implementation—the amount of code required to build and train the SVM is notably less than the comparable deep learning model.** 
 
 
+## Random Forest vs. Deep Learning Model
 
+**Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model.Random forest is a supervised ensemble learning model that combines decision trees to analyze input data.**
 
+**Comparing Random Forest Models to Neural Networks:**
 
+- **Random forest models will only handle tabular data, so data such as images or natural language data cannot be used in a random forest without heavy modifications to the data.**
 
+- **Neural networks can handle all sorts of data types and structures in raw format or with general transformations (such as converting categorical data).**
 
+**In the [RandomForest_DeepLearning](	RandomForest_DeepLearning.ipynb) we compared the implementation and performance of a random forest model versus a deep learning model, we will also train and evaluate both models on the same ***bank loan data.*****
+
+#### Results 
+
+**Both the random forest and deep learning models were able to predict correctly whether or not a loan will be repaid over 80% of the time. The differnce was the random forest classifier was able to train on the large dataset and predict values in seconds, while the deep learning model required a couple minutes to train on the tens of thousands of data points.**
 
 
 
@@ -58,5 +68,5 @@ Despite these advantages, SVMs are limited in their potential and can still miss
 
 - [Bank Telemarketing Dataset](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_19/bank_telemarketing.csv) 
 
-- 
+- [Bank loan data](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_19/loan_status.csv) 
 
