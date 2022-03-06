@@ -9,6 +9,8 @@
 
 **In Basic Neural Network the sigmoid curve is the exact same curve used in the sigmoid activation function of a neural network.**
 
+<img src="img/Logistic Regression Vs. a Basic Neural Network.png" >
+
 
 - **In the [LogisticRegression_NeuralNet](LogisticRegression_NeuralNet.ipynb) file we demonstrate how similar the logistic regression and basic neural network models are in terms of performance, we'll also build and evaluate both models using the same training/testing dataset using the ***Diabetes Dataset.*****
 
