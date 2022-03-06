@@ -9,7 +9,7 @@
 
 **In Basic Neural Network the sigmoid curve is the exact same curve used in the sigmoid activation function of a neural network.**
 
-<img src="img/Logistic Regression Vs. a Basic Neural Network.png" >
+***Refer to [Sigmoid Curve img](<img src="img/Sigmoid Curve.png">)***
 
 
 - **In the [LogisticRegression_NeuralNet](LogisticRegression_NeuralNet.ipynb) file we demonstrate how similar the logistic regression and basic neural network models are in terms of performance, we'll also build and evaluate both models using the same training/testing dataset using the ***Diabetes Dataset.*****
@@ -30,6 +30,8 @@
 
 **SVMs(Support Vector Machine) are supervised learning models that analyze data used for regression and classification. SVMs are a type of binary classifier that use geometric boundaries to distinguish data points from two separate groups. More specifically, SVMs try to calculate a geometric hyperplane that maximizes the distance between the closest data point of both groups.SVMs can build adequate models with linear or nonlinear data. Due to SVMs' ability to create multidimensional borders. SVMs lose their interpretability and behave more like the black box machine learning models, such as basic neural networks and deep learning models.** 
 
+***Refer to [Support Vector Machine img](<img src="img/Support Vector Machine Vs. Deep Learning Model.png">)***
+
 **Comparisons**
 
 **SVMs have an advantage over neural network and deep learning models:**
@@ -49,6 +51,8 @@ Despite these advantages, SVMs are limited in their potential and can still miss
 ## Random Forest vs. Deep Learning Model
 
 **Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model.Random forest is a supervised ensemble learning model that combines decision trees to analyze input data.**
+
+***Refer to [Random Forest img](<img src="img/Random Forest Vs. Deep Learning Model.png">)***
 
 **Comparing Random Forest Models to Neural Networks:**
 
